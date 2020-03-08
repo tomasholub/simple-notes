@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { UISref } from "@uirouter/react";
 import INote from "../INote";
 import ViewContent from "./ViewContent";
+import { LocalizationContext } from "../localization";
 
 interface IViewProps {
   note: INote;
