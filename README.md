@@ -12,13 +12,14 @@ You need to have these installed:
 - node.js
 - npm
 - yarn
+- mocha (for testing)
 
 ### Steps to build the project
 
 #### Run the server:
 1. Clone the repository from github (or download the .ZIP file):
   ```
-  git clone simple-notes TODO:
+  git clone https://github.com/tomasholub/simple-notes.git
   ```
 
 1. Use console (command prompt or terminal) and go to the folder with the server:
@@ -48,7 +49,7 @@ You need to have these installed:
 
 You need to have `mocha` installed. You also need to have server running (using `npm run start`).
 
-Then, you can run:
+Then, you can run in another terminal window:
 ```
 mocha
 ```
