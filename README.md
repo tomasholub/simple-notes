@@ -49,7 +49,7 @@ You need to have these installed:
 
 You need to have `mocha` installed. You also need to have server running (using `npm run start`).
 
-Then, you can run:
+Then, you can run in another terminal window:
 ```
 mocha
 ```
