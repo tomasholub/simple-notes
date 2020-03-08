@@ -70,7 +70,10 @@ const editNote = async (id: number, title: string, text: string) => {
 
   return new Promise((resolve, reject) => {
     axios
-      .put(`http://localhost:4000/notes/${id}`, { title, text })
+      .put(`http://localhost:4000/notes/${id}`, {
+        title,
+        text
+      })
       .then(response => {
         if (response.data && response.data.success) {
           resolve(response.data.data);

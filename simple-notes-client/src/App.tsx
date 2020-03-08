@@ -43,7 +43,15 @@ let create1State: ReactStateDeclaration = {
 // home page is displayed after form for creating a new note is submitted
 let createState: ReactStateDeclaration = {
   name: "create",
-  url: "/create/:title/:text",
+  url: "/create",
+  params: {
+    title: {
+      type: "string"
+    },
+    text: {
+      type: "string"
+    }
+  },
   component: Home,
   resolve: [
     {
@@ -86,7 +94,15 @@ let edit1State: ReactStateDeclaration = {
 // home page is displayed after form for editing a new note is submitted
 let editState: ReactStateDeclaration = {
   name: "edit",
-  url: "/edit/:id/:title/:text",
+  url: "/edit/:id",
+  params: {
+    title: {
+      type: "string"
+    },
+    text: {
+      type: "string"
+    }
+  },
   component: Home,
   resolve: [
     {

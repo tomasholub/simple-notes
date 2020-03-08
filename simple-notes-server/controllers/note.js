@@ -69,8 +69,8 @@ exports.createOneNote = (req, res) => {
   notes.map(item => (maxId = item.id > maxId ? item.id : maxId));
   const note = {
     id: maxId + 1,
-    title: decodeURI(req.body.title || ""),
-    text: decodeURI(req.body.text || "")
+    title: req.body.title || "",
+    text: req.body.text || ""
   };
   notes.push(note);
 
@@ -86,8 +86,8 @@ exports.editOneNote = (req, res) => {
   const index = notes.findIndex(item => item.id === parseInt(req.params.id));
 
   if (index !== -1) {
-    notes[index].title = decodeURI(req.body.title || "");
-    notes[index].text = decodeURI(req.body.text || "");
+    notes[index].title = req.body.title || "";
+    notes[index].text = req.body.text || "";
     res.send({
       success: true,
       message: `Note with id=${req.params.id} successfully updated`,
