@@ -19,7 +19,7 @@ You need to have these installed:
 #### Run the server:
 1. Clone the repository from github (or download the .ZIP file):
   ```
-  git clone simple-notes TODO:
+  git clone https://github.com/tomasholub/simple-notes.git
   ```
 
 1. Use console (command prompt or terminal) and go to the folder with the server:
