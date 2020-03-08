@@ -12,6 +12,7 @@ You need to have these installed:
 - node.js
 - npm
 - yarn
+- mocha (for testing)
 
 ### Steps to build the project
 
