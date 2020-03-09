@@ -97,7 +97,7 @@ There are many possible improvements to make the application more user-friendly,
 
 ## Notes & Recommendations
 
-- [Yarn](https://yarnpkg.com/) has been used instead of [Bower](https://bower.io/). Bower is deprecated from 2017 and even its creators [recommend](https://bower.io/blog/2017/how-to-migrate-away-from-bower/) upgrade to Yarn or other tools.
-- [WebPack](https://github.com/webpack/webpack) can perform majority of tasks done by Grunt, [Gulp](https://gulpjs.com/) or [Browserify](http://browserify.org/). Very detailed comparison with examples and explanation can be found here: https://www.toptal.com/front-end/webpack-browserify-gulp-which-is-better.
+- [Yarn](https://yarnpkg.com/) has been used instead of [Bower](https://bower.io/). Bower is deprecated from 2017 and even its creators [recommend](https://bower.io/blog/2017/how-to-migrate-away-from-bower/) upgrade to Yarn or other tools. That's why I used npm and Yarn.
+- [WebPack](https://github.com/webpack/webpack) can perform majority of tasks done by Grunt, [Gulp](https://gulpjs.com/) or [Browserify](http://browserify.org/). Very detailed comparison with examples and explanation can be found here: https://www.toptal.com/front-end/webpack-browserify-gulp-which-is-better. I used webpack.
 - [GraphQL](http://graphql.org) is a modern alternative to REST. It allows more type-safe and flexible communication between client and server. However, I followed the requirements and used REST.
 - [Material-UI](https://material-ui.com/) is up-to-date library to build user interfaces replacing [BootStrap](https://getbootstrap.com/). However, I followed the requirements and used BootStrap.
