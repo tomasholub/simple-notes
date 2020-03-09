@@ -80,7 +80,7 @@ You can see a list of notes, view, edit and delete individual notes. You can als
 
 ### Run the client tests
 
-Run:
+Run the following command in another terminal window (simple-notes-server must be already running):
 ```
 yarn test
 ```
