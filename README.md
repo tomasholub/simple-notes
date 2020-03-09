@@ -17,22 +17,22 @@ You need to have these installed:
 ### Steps to build the project
 
 #### Run the server:
-1. Clone the repository from github (or download the .ZIP file):
+Clone the repository from github (or download the .ZIP file):
   ```
   git clone https://github.com/tomasholub/simple-notes.git
   ```
 
-1. Use console (command prompt or terminal) and go to the folder with the server:
+Use console (command prompt or terminal) and go to the folder with the server:
   ```
   cd simple-notes/simple-notes-server
   ```
   
-1. Install dependencies:
+Install dependencies:
   ```
   npm i
   ```
 
-1. Run the server:
+Run the server:
   ```
   npm run start
   ```
@@ -41,7 +41,7 @@ You need to have these installed:
   Server running on port 4000
   ```
   
-1. Check if the server is running
+Check if the server is running
   - Open web browser and navigate to http://localhost:4000/notes
   - You should see a page with JSON data with 5 sample notes
 
