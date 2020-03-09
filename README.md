@@ -69,7 +69,7 @@ Install dependencies:
 yarn install
 ```
   
-Run the client:
+Run the client (simple-notes-server must be already running);
 ```
 yarn start
 ```
@@ -80,7 +80,7 @@ You can see a list of notes, view, edit and delete individual notes. You can als
 
 ### Run the client tests
 
-Run the following command in another terminal window (simple-notes-server must be already running):
+Run the following command in another terminal window (simple-notes-server must be running):
 ```
 yarn test
 ```
