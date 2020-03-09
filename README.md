@@ -14,9 +14,8 @@ You need to have these installed:
 - yarn
 - mocha (for testing)
 
-### Steps to build the project
 
-#### Run the server:
+### Run the server:
 Clone the repository from github (or download the .ZIP file):
 ```
 git clone https://github.com/tomasholub/simple-notes.git
@@ -45,7 +44,7 @@ Check if the server is running
 - Open web browser and navigate to http://localhost:4000/notes
 - You should see a page with JSON data with 5 sample notes
 
-#### Run the server tests:
+### Run the server tests:
 
 You need to have `mocha` installed. You also need to have server running (using `npm run start`).
 
@@ -59,7 +58,7 @@ There are two tests present:
 - **should return all notes** - i.e. testing `GET /notes` endpoint
 - **should update a note** - i.e. testing `PUT /notes/1` endpoint
 
-#### Run the client:
+### Run the client:
 Use another terminal window and go to the folder with the client
 ```
 cd simple-notes/simple-notes-client
@@ -79,7 +78,7 @@ A new web browser tab should appear with the application running on http://local
 
 You can see a list of notes, view, edit and delete individual notes. You can also change a language etc. Enjoy.
 
-#### Run the client tests:
+### Run the client tests:
 
 Run:
 ```
