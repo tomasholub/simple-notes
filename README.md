@@ -24,7 +24,7 @@ You need to have these installed:
 
 1. Use console (command prompt or terminal) and go to the folder with the server:
   ```
-  cd simple-notes-server
+  cd simple-notes/simple-notes-server
   ```
   
 1. Install dependencies:
@@ -62,7 +62,7 @@ There are two tests present:
 #### Run the client:
 1. Use another console and go to the folder with the client:
   ```
-  cd simple-notes-client
+  cd simple-notes/simple-notes-client
   ```
   
 1. Install dependencies:
