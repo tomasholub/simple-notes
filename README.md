@@ -18,32 +18,32 @@ You need to have these installed:
 
 #### Run the server:
 Clone the repository from github (or download the .ZIP file):
-  ```
-  git clone https://github.com/tomasholub/simple-notes.git
-  ```
+```
+git clone https://github.com/tomasholub/simple-notes.git
+```
 
 Use console (command prompt or terminal) and go to the folder with the server:
-  ```
-  cd simple-notes/simple-notes-server
-  ```
+```
+cd simple-notes/simple-notes-server
+```
   
 Install dependencies:
-  ```
-  npm i
-  ```
+```
+npm i
+```
 
 Run the server:
-  ```
-  npm run start
-  ```
-  You should see the output:
-  ```
-  Server running on port 4000
-  ```
+```
+npm run start
+```
+You should see the output:
+```
+Server running on port 4000
+```
   
 Check if the server is running
-  - Open web browser and navigate to http://localhost:4000/notes
-  - You should see a page with JSON data with 5 sample notes
+- Open web browser and navigate to http://localhost:4000/notes
+- You should see a page with JSON data with 5 sample notes
 
 #### Run the server tests:
 
@@ -57,27 +57,27 @@ If everything goes fine, you should see a green message **2 passing**.
 
 There are two tests present:
 - **should return all notes** - i.e. testing `GET /notes` endpoint
-- **should update a note** - i.e. testing `PUT /notes/1`
+- **should update a note** - i.e. testing `PUT /notes/1` endpoint
 
 #### Run the client:
-1. Use another console and go to the folder with the client:
-  ```
-  cd simple-notes/simple-notes-client
-  ```
+Use another terminal window and go to the folder with the client
+```
+cd simple-notes/simple-notes-client
+```
   
-1. Install dependencies:
-  ```
-  yarn install
-  ```
+Install dependencies:
+```
+yarn install
+```
   
-1. Run the client:
-  ```
-  yarn start
-  ```
+Run the client:
+```
+yarn start
+```
 
-1. A new web browser tab should appear with the application running on http://localhost:3000
+A new web browser tab should appear with the application running on http://localhost:3000
 
-1. You can see a list of notes, view, edit and delete individual notes. You can also change a language etc. Enjoy.
+You can see a list of notes, view, edit and delete individual notes. You can also change a language etc. Enjoy.
 
 #### Run the client tests:
 
