@@ -1,7 +1,8 @@
 # SIMPLE NOTES
 
 - Example project written in ReactJS, node.js. using Bootstrap, UI-Router and REST.
-- Implemented according to detailed requirements - see Notes below discussing technologies and possible improvements.
+- Implemented according to detailed requirements
+- See Notes below discussing technologies and possible improvements.
 - Created by [tomas.holub@apitree.cz](mailto:tomas.holub@apitree.cz) in March, 2020.
 
 ## Requirements
