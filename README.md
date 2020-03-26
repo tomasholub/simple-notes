@@ -8,20 +8,20 @@
 
 Prepare a simple application in ReactJS (or AngularJS). Prepare your own backend with these endpoints.
 
-Methods:
+### Methods:
 - GET / notes
 - GET / notes / {id}
 - POST / notes
 - PUT / notes / {id}
 - DELETE / notes / {id}
 
-Functional requirements:
+### Functional requirements:
 
 - After installing and running you enter localhost:3000 and page appears with a list of notes.
 - It is possible to display, edit, delete and create a new note.
 - User should be able to change a language ( EN / CZ)
 
-Non-functional requirements:
+### Non-functional requirements:
 - GUI according to your design, using with Bootstrap and LESS / SASS / Stylus preferred.
 - The code should be ES6 + JS using the newer APIs such as Promise, Array, extras
 - You might also use Typescript
